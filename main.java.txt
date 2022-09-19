@@ -1,0 +1,16 @@
+public class main {
+
+    public static void main(String[]args) {
+        hewan h = new hewan();
+        manusia a = new manusia();
+        telpon t = new telpon();
+        
+        System.out.println("tidur: " +h.tidur(true));
+
+        System.out.println("memasak: "+a.memasak("Rendang Balado"));
+
+        System.out.println("terima_telpon: " +t.terima_panggilan(true));
+    }        
+    
+    
+}
